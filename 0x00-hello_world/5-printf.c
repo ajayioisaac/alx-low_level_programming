@@ -4,8 +4,8 @@
  * main - print the string in the printf function
  *
  * Description: using the main function
- * This program prints whatever is in the printf function
- * Returns: 0
+ * This program prints "whatever is in the printf function
+ * Return: 0
  */
 int main(void)
 {
