@@ -1,13 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: on success 1
- * On error, -1 is required, and erno is set appropriately.
+ * main - debugging example
+ * Return: 0
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char *holberton = "Holberton";
+
+	while (*holberton)
+	{
+		_putchar(*holberton);
+		holberton++;
+	}
+	_putchar('\n');
+	return (0);
 }
