@@ -1,17 +1,17 @@
 #include "main.h"
-
 /**
- * main - debugging example
- * Return: 0
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char *holberton = "Holberton";
+	char abe[] = "_putchar";
 
-	while (*holberton)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(*holberton);
-		holberton++;
+		_putchar(abe[c]);
 	}
 	_putchar('\n');
 	return (0);
