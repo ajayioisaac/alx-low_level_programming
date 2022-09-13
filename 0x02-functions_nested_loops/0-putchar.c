@@ -1,19 +1,18 @@
-#include "Isaac.h"
+#include "putchar.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - debugging example
+ * Return: 0
  */
 int main(void)
 {
-	char *sh = "Isaac";
+	char *putchar = "putchar";
 
-	while (*sh)
+	while (*putchar)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(*putchar);
+		putchar++;
 	}
 	_putchar('\n');
-
 	return (0);
 }
