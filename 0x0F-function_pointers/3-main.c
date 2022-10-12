@@ -3,12 +3,13 @@
 #include <stdio.h>
 
 /**
- *  * main - ...
- *   * @argc: ...
- *    * @argv: ...
- *     *
- *      * Return: ...
- *       */
+ * main - ...
+ * @argc: ...
+ * @argv: ...
+ *
+ * Return: ...
+ */
+
 int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
@@ -20,6 +21,7 @@ int main(int argc, char *argv[])
 	}
 
 	oprt = get_op_func(argv[2]);
+
 	if (!oprt)
 	{
 		printf("Error\n");
