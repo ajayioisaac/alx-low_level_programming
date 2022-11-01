@@ -1,7 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 /**
  * free_listint_safe - frees a linked list
  * @h: pointer to the first node in the linked list
