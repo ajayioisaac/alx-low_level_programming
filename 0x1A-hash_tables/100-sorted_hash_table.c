@@ -168,11 +168,12 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 /**
  * shash_table_print - prints a sorted hash table
  * @ht: hash table to print
- *
+ * R
  * Return: void
  */
 void shash_table_print(const shash_table_t *ht)
 {
+	
 	shash_node_t *tmp;
 	char flag = 0; /* 0 before printing any data, 1 after*/
 
